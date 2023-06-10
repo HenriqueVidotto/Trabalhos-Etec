@@ -1,0 +1,71 @@
+$(document).ready(function(event){
+  $("#i1").mouseenter(function(){
+    $("#ii1").show();
+    $("#i1").hide();
+  });
+  $("#ii1").mouseleave(function(){
+    $("#i1").show();
+    $("#ii1").hide();
+  });
+
+  $("#i2").mouseenter(function(){
+    $("#ii2").show();
+    $("#i2").hide();
+  });
+  $("#ii2").mouseleave(function(){
+    $("#i2").show();
+    $("#ii2").hide();
+  });
+
+  $("#i3").mouseenter(function(){
+    $("#ii3").show();
+    $("#i3").hide();
+  });
+  $("#ii3").mouseleave(function(){
+    $("#i3").show();
+    $("#ii3").hide();
+  });
+
+  $("#i4").mouseenter(function(){
+    $("#ii4").show();
+    $("#i4").hide();
+  });
+  $("#ii4").mouseleave(function(){
+    $("#i4").show();
+    $("#ii4").hide();
+  });
+  $("#g1").mouseenter(function(){
+    $("#gg1").show();
+    $("#g1").hide();
+  });
+  $("#gg1").mouseleave(function(){
+    $("#g1").show();
+    $("#gg1").hide();
+  });
+ $("#g2").mouseenter(function(){
+    $("#gg2").show();
+    $("#g2").hide();
+  });
+  $("#gg2").mouseleave(function(){
+    $("#g2").show();
+    $("#gg2").hide();
+  });
+   $("#g3").mouseenter(function(){
+    $("#gg3").show();
+    $("#g3").hide();
+  });
+  $("#gg3").mouseleave(function(){
+    $("#g3").show();
+    $("#gg3").hide();
+  });
+   $("#g4").mouseenter(function(){
+    $("#gg4").show();
+    $("#g4").hide();
+  });
+  $("#gg4").mouseleave(function(){
+    $("#g4").show();
+    $("#gg4").hide();
+  });
+ 
+
+});
